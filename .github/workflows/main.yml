@@ -1,0 +1,11 @@
+name: My Hello Action
+
+on: [push]
+
+jobs:
+  say-hello:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Print Message
+        run: echo "👋 Hello! This is my custom GitHub Action!"
